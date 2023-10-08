@@ -1,0 +1,32 @@
+{
+  "name": "apus-lodash",
+  "version": "1.0.0",
+  "description": "Js工具库",
+  "main": "./dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "husky install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wangdongovo/apus-lodash.git"
+  },
+  "author": "wd <wangdongovo@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wangdongovo/apus-lodash/issues"
+  },
+  "homepage": "https://github.com/wangdongovo/apus-lodash#readme",
+  "devDependencies": {
+    "@types/node": "^20.8.3",
+    "husky": "^8.0.0",
+    "lint-staged": "^14.0.1",
+    "prettier": "^3.0.3",
+    "typescript": "^5.2.2"
+  },
+  "lint-staged": {
+    "*.{js,ts,json}": [
+      "prettier --write"
+    ]
+  }
+}
